@@ -34,4 +34,6 @@ var app = builder.Build();
 
 app.MapGraphQL();
 
+app.UseGraphQLGraphiQL();
+
 app.RunWithGraphQLCommands(args);

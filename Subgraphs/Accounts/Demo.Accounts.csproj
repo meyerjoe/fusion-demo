@@ -12,11 +12,12 @@
     <Using Include="Demo.Accounts" />
     <Using Include="Demo.Accounts.Data" />
     <Using Include="Demo.Accounts.Types" />
-    <Using Include="Microsoft.EntityFrameworkCore"/>
-    <Using Include="System.ComponentModel.DataAnnotations"/>
+    <Using Include="Microsoft.EntityFrameworkCore" />
+    <Using Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="GraphQL.Server.Ui.GraphiQL" Version="7.5.0" />
     <PackageReference Include="HotChocolate.AspNetCore" Version="13.5.0-preview.1" />
     <PackageReference Include="HotChocolate.AspNetCore.CommandLine" Version="13.5.0-preview.1" />
     <PackageReference Include="HotChocolate.Diagnostics" Version="13.5.0-preview.1" />
@@ -26,7 +27,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
 
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>

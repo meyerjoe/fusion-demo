@@ -44,4 +44,6 @@ app.UseWebSockets();
 
 app.MapGraphQL();
 
+app.UseGraphQLGraphiQL();
+
 app.RunWithGraphQLCommands(args);
