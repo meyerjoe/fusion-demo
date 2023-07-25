@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Accounts", "Subgraphs\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Reviews", "Subgraphs\Reviews\Demo.Reviews.csproj", "{0D76A885-E838-44F8-B081-965514B387ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnmanagedGateway", "UnmanagedGateway\UnmanagedGateway.csproj", "{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{0D76A885-E838-44F8-B081-965514B387ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D76A885-E838-44F8-B081-965514B387ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D76A885-E838-44F8-B081-965514B387ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
