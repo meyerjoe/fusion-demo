@@ -399,3 +399,6 @@ FodyWeavers.xsd
 *.fgp
 *.fsp
 .DS_Store
+
+# Rider files
+.idea/
