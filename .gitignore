@@ -396,9 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-*.fgp
-*.fsp
 .DS_Store
-
-# Rider files
 .idea/
+
+# *.fgp --> gateway config file
+# *.fsp --> subgraph packages
