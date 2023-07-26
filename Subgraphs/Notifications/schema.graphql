@@ -11,6 +11,7 @@ type Notification implements Node {
   id: ID!
   message: String!
   username: String!
+  user: User
 }
 
 "A connection to a list of items."
@@ -73,5 +74,6 @@ type Query {
 }
 
 type User {
+  notifications: [Notification!]!
   username: String!
 }

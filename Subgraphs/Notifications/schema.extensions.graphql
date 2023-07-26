@@ -1,3 +1,3 @@
-extend type Notification {
-  recipient(username: String! @is(field: "username")): User
+extend type Query {
+  userByUsername(username: String! @is(field: "username")): User
 }

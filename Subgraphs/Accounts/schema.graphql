@@ -7,11 +7,6 @@ interface Node {
   id: ID!
 }
 
-type Notification {
-  id: ID!
-  recipient(username: String!): User
-}
-
 "Information about pagination in a connection."
 type PageInfo {
   "Indicates whether more edges exist following the set defined by the clients arguments."
@@ -32,7 +27,6 @@ type Query {
   userById(id: ID!): User
   userByUsername(username: String!): User
   users("Returns the first _n_ elements from the list." first: Int "Returns the elements in the list that come after the specified cursor." after: String "Returns the last _n_ elements from the list." last: Int "Returns the elements in the list that come before the specified cursor." before: String): UsersConnection
-  notificationById(id: ID!): Notification!
 }
 
 type User implements Node {

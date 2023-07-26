@@ -1,3 +1,0 @@
-extend type Notification {
-  recipient(username: String! @is(field: "username")): User
-}

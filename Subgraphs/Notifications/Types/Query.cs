@@ -25,3 +25,10 @@ public static class Query
         => new User(username);
 
 }
+
+[ExtendObjectType<Notification>]
+public static class NotificationNode
+{
+    public static User? GetUser([Parent] Notification notification)
+        => notification.Username is null ? null : new User(notification.Username);
+}

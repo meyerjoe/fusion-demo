@@ -1,5 +1,6 @@
 namespace Demo.Accounts.Types;
 
+/*
 public sealed record Notification([property: ID<Notification>] int Id)
 {
 }
@@ -13,3 +14,4 @@ public static class NotificationType
         CancellationToken cancellationToken)
         => await userByName.LoadAsync(username, cancellationToken);
 }
+*/
