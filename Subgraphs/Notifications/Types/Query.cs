@@ -25,7 +25,3 @@ public static class Query
         => new User(username);
 
 }
-
-public sealed record User(string Username)
-{
-}
