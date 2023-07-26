@@ -22,6 +22,6 @@ internal static class NotificationDataLoaders
             .Where(t => usernames.Contains(t.Username))
             .ToListAsync(cancellationToken);
 
-        return notifications.ToLookup(t => t.Username);
+        return notifications.ToLookup(t => t.Username!);
     }
 }

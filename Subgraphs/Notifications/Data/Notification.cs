@@ -11,5 +11,5 @@ public class Notification
     public string? Message { get; set; }
 
     [Required]
-    public string Username { get; set; }
+    public string? Username { get; set; }
 }
