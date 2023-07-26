@@ -20,9 +20,5 @@ public static class Query
     public static IQueryable<User> GetUsers(
         AccountContext context)
         => context.Users.OrderBy(t => t.Name);
-/*
-    public static Notification GetNotificationById([ID<Notification>] int id)
-        => new Notification(id);
-        */
 }
 
