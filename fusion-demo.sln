@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Reviews", "Subgraphs\R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnmanagedGateway", "UnmanagedGateway\UnmanagedGateway.csproj", "{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Subgraphs\Notifications\Notifications.csproj", "{0B821803-4F3B-4840-9548-7CD734162B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35F0DCA-940B-4A0C-8AEA-16F0754F9B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B821803-4F3B-4840-9548-7CD734162B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B821803-4F3B-4840-9548-7CD734162B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B821803-4F3B-4840-9548-7CD734162B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B821803-4F3B-4840-9548-7CD734162B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{C4094206-5F91-4032-8947-6600FDE4ECF6} = {92E2CC4A-1EFA-4911-8AE6-485289D56DB7}
 		{2D6212EA-EA14-4DBA-9D2F-55791C2A3A79} = {92E2CC4A-1EFA-4911-8AE6-485289D56DB7}
 		{0D76A885-E838-44F8-B081-965514B387ED} = {92E2CC4A-1EFA-4911-8AE6-485289D56DB7}
+		{0B821803-4F3B-4840-9548-7CD734162B69} = {92E2CC4A-1EFA-4911-8AE6-485289D56DB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFE4B1A2-8C21-4648-A4A9-D55DC87FE17F}
