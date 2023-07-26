@@ -1,0 +1,4 @@
+{
+  "subgraph": "notifications",
+  "http": { "baseAddress": "http://localhost:5022/graphql" }
+}
