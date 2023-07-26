@@ -21,4 +21,11 @@ public static class Query
         NotificationsContext context)
         => context.Notifications.Where(t => t.Username == username);
 
+    public static User GetUserByUsername(string username)
+        => new User(username);
+
+}
+
+public sealed record User(string Username)
+{
 }
