@@ -15,7 +15,6 @@ public static class Query
         NotificationsContext context)
         => context.Notifications.OrderBy(t => t.Username);
 
-    [UsePaging]
     public static IQueryable<Notification> GetNotificationsByUsername(
         string username,
         NotificationsContext context)
@@ -26,9 +25,11 @@ public static class Query
 
 }
 
+/*
 [ExtendObjectType<Notification>]
 public static class NotificationNode
 {
     public static User? GetUser([Parent] Notification notification)
         => notification.Username is null ? null : new User(notification.Username);
 }
+*/

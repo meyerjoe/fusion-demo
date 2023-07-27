@@ -1,0 +1,9 @@
+extend type Query {
+  notificationById(id: ID! @is(field: "id")): Notification
+}
+
+extend type Notification {
+  user(
+    username: String! @require(field: "username")
+  ): User!
+}

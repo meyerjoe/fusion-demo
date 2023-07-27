@@ -11,25 +11,6 @@ type Notification implements Node {
   id: ID!
   message: String!
   username: String!
-  user: User
-}
-
-"A connection to a list of items."
-type NotificationsByUsernameConnection {
-  "Information to aid in pagination."
-  pageInfo: PageInfo!
-  "A list of edges."
-  edges: [NotificationsByUsernameEdge!]
-  "A flattened list of the nodes."
-  nodes: [Notification!]
-}
-
-"An edge in a connection."
-type NotificationsByUsernameEdge {
-  "A cursor for use in pagination."
-  cursor: String!
-  "The item at the end of the edge."
-  node: Notification!
 }
 
 "A connection to a list of items."
@@ -69,7 +50,7 @@ type Query {
   nodes("The list of node IDs." ids: [ID!]!): [Node]!
   notificationById(id: ID!): Notification
   notifications("Returns the first _n_ elements from the list." first: Int "Returns the elements in the list that come after the specified cursor." after: String "Returns the last _n_ elements from the list." last: Int "Returns the elements in the list that come before the specified cursor." before: String): NotificationsConnection
-  notificationsByUsername(username: String! "Returns the first _n_ elements from the list." first: Int "Returns the elements in the list that come after the specified cursor." after: String "Returns the last _n_ elements from the list." last: Int "Returns the elements in the list that come before the specified cursor." before: String): NotificationsByUsernameConnection
+  notificationsByUsername(username: String!): [Notification!]!
   userByUsername(username: String!): User!
 }
 

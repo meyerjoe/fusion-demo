@@ -72,6 +72,7 @@ type Review implements Node {
   author: User!
   thisIsInternal: String! @tag(name: "internal")
   product: Product!
+  fooBarBaz: String!
 }
 
 "A connection to a list of items."
